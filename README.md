@@ -5,4 +5,4 @@ For example, while sarabandes and courantes are dance styles in 3/4, they are di
 
 Project: Can we create a model which can correctly identify musical types from one another based on their unique styles? <br> <br>
 
-Procedure:
+Procedure: Using a corpus of Bach pieces from the Yale Classical Archives corpus, extract chords as onsets. Since each chord has a different effect on perception, they are weighted by cardinality, duration, and register (see files). These weights are then appended into a time-series grid, and DFTs are calculated on randomized windows of the same length. Using the DFT component magnitudes, a NN model is trained to identify which metric type is which. <br> <br>
