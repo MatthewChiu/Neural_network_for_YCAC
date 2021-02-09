@@ -1,4 +1,4 @@
-# Detecting metric types using a Neural network 
+# Detecting metric types using DFT components fed into neural networks inputs
 
 Theory: Music often refers to "meters" such as 3/4, 4/4, 6/8, etc. But, within the same meters, there are stylistic rhythms that create a sense of style. 
 For example, while sarabandes and courantes are dance styles in 3/4, they are distinctly different. I refer to these characteristic and recurring patterns as "metric types." <br> <br>
